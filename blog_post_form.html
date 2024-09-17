@@ -1,17 +1,37 @@
 <!DOCTYPE html>
 <html>
+    <link rel="stylesheet" href="CssTable.css">
 <body>
-   <h1><center>Share an intresting fact you found</center></h1> 
+   <h1><center style="background-color:aqua;">Share intresting Facts you found</center></h1> 
    <table>
     <tr>
-        <th><input type="text">Put Header Here</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Content</th>
+        <th>Date</th>
+        <th>Facts you have</th>
     </tr>
     <tr>
-        <td><input type="date">Date</td>
+        <td><input type="text"></td> 
+        <td><input type="text"></td>
+        <td>
+            <select name="Animals" id="animal">
+                <optgroup label="Animals">
+                    <option value="dog">dogs</option>
+                    <option value="cats">cats</option>
+                </optgroup>
+            </select>
+        </td>
+        <td><input type="date"></td> 
+        <td><textarea name="" id="" style="width: 1000px;"></textarea></td>
     </tr>
-        <tr>
-            <td><input type="text">The facts you have</td>
-        </tr>
    </table>
+   <button onclick="Alerted()">Submit</button>
+   <script>
+    function Alerted(){
+        alert("submission sent for review")
+    }
+   </script>
+   
 </body>
 </html>

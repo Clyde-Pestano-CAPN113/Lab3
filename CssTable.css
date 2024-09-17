@@ -1,0 +1,38 @@
+table, tr, th, td {
+    width: 1500px;
+    height: 30px;
+    border: 1px solid black;
+    border-color: rgb(39, 12, 119);
+}
+
+nav{
+ background-color: blanchedalmond;
+ padding: 20px;
+}
+
+nav a{
+    color: #fff; 
+    text-decoration: none; 
+    padding: 10px; 
+    margin-right: 20px; 
+    display: inline-block; 
+}
+
+.sidenavtext{
+    color: white;
+}
+.sidenav{
+    height: 40%;
+    width: 10%;
+    position: fixed;
+    z-index: 1;
+    top: -1;
+    left: 0;
+    background-color: blanchedalmond;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sidenav a{
+    padding: 6px, 8px, 7px;
+    display: block;
+}
